@@ -6,3 +6,9 @@
 <!-- cách 2: property binding -->
 
 <h4 [innerHTML] = 'name'></h4>
+
+<!-- trường hợp với object -->
+
+<p [innerHTML] = "hocVien.hoTen + ' ' +  hocVien.gioiTinh">Họ Tên: </p>
+<p>Họ Tên: {{hocVien.hoTen}}</p>
+<p>Giới Tính: {{hocVien.gioiTinh}}</p>

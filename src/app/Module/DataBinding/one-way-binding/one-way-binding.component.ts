@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class OneWayBindingComponent implements OnInit {
 
   public name:string = 'Henry MasterYi'
+  public hocVien:any = {hoTen:'Nguyễn Văn A', gioiTinh:'Nam'}
   constructor() { }
 
   ngOnInit(): void {
