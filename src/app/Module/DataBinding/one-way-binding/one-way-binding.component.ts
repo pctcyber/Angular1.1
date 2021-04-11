@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OneWayBindingComponent implements OnInit {
 
-  public name:string = 'Henry Tèo'
+  public name:string = 'Henry MasterYi'
   constructor() { }
 
   ngOnInit(): void {
