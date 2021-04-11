@@ -10,10 +10,13 @@ import { AppComponent } from './app.component';
 // import { FootterComponent } from './footter/footter.component';
 // import { TrangChuComponent } from './trang-chu/trang-chu.component';
 import { LayoutModuleModule } from './layout-module/layout-module.module';
+import { OneWayBindingComponent } from './Module/DataBinding/one-way-binding/one-way-binding.component';
+import { OneWayBindingModule } from './Module/DataBinding/one-way-binding/one-way-binding.module';
 
 @NgModule({
   declarations: [
     AppComponent,
+    // OneWayBindingComponent,
     // FirstComponent,
     // HeaderComponent,
     // ContentComponent,
@@ -27,7 +30,8 @@ import { LayoutModuleModule } from './layout-module/layout-module.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    LayoutModuleModule
+    LayoutModuleModule,
+    OneWayBindingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
